@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F7F9F7">
+<meta name="format-detection" content="telephone=no">
+<title>Segurança Alimentar e Segurança Digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="deck" aria-live="polite">
+
+  <section class="slide s-title" aria-label="Capa">
+    <div class="panel top food"><p>Segurança<br>Alimentar</p></div>
+    <div class="panel bottom digital"><p>Segurança<br>Digital</p></div>
+  </section>
+
+  <section class="slide" aria-label="Público-alvo">
+    <h2>Para quem é esta capacitação</h2>
+    <p class="lead">Colaboradores de três setores, com rotinas diferentes e as mesmas responsabilidades.</p>
+    <ul class="sectors">
+      <li>Administrativo</li>
+      <li>Operacional</li>
+      <li>Atendimento</li>
+    </ul>
+  </section>
+
+  <section class="slide" aria-label="Objetivo">
+    <h2>🎯 Objetivo</h2>
+    <p class="lead">Conscientizar os colaboradores sobre boas práticas de manipulação e higiene, aliadas à proteção de dados internos e ao uso seguro dos sistemas e equipamentos na rotina de trabalho.</p>
+    <ol class="stages">
+      <li class="food">
+        <span class="n">1</span>
+        <h3>Segurança Alimentar</h3>
+        <p>Palestra em conjunto com a equipe de Nutrição.</p>
+      </li>
+      <li class="digital">
+        <span class="n">2</span>
+        <h3>Segurança Digital</h3>
+        <p>Proteção de dados e uso seguro de sistemas e equipamentos.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="slide" aria-label="Resultados esperados">
+    <h2>📊 Resultados esperados</h2>
+    <ul class="results">
+      <li>
+        <h3>Mapeamento de conhecimentos</h3>
+        <p>Avaliar, por meio do questionário, o nível de assimilação da equipe sobre os temas abordados.</p>
+      </li>
+      <li>
+        <h3>Base de dados estratégica</h3>
+        <p>Identificar com clareza em quais processos operacionais ou tecnológicos a equipe tem mais dificuldade.</p>
+      </li>
+      <li>
+        <h3>Direcionamento de futuras ações</h3>
+        <p>Usar os dados coletados para embasar e guiar os próximos treinamentos do restaurante.</p>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<nav class="controls" aria-label="Navegação dos slides">
+  <button id="prev" type="button" aria-label="Slide anterior">‹</button>
+  <span id="counter">1 / 4</span>
+  <button id="next" type="button" aria-label="Próximo slide">›</button>
+  <button id="full" type="button" aria-label="Tela cheia">⛶</button>
+</nav>
+<div class="progress" aria-hidden="true"><i id="bar"></i></div>
+
+<script src="script.js"></script>
+</body>
+</html>
